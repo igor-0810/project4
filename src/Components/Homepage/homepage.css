@@ -1,0 +1,92 @@
+
+.heder1 .heder-title{height: 80vh; background-image: url('../../Photos/nastani/0.jpg'); background-position: center; 
+    background-size: cover;position: relative;}
+.bg-zatemnet{height: 80vh; background-color: rgba(0, 0, 0, 0.5);}
+    
+.heder1 .heder-title h1{color: white; position: absolute; top: 40%; left: 50%; transform: translateX(-50%);
+         text-align: center;}
+
+.main-div-HomePage{width: 90%; margin: 0 auto;}
+.zanas-link{color: black;}
+.zanas-link:hover{text-decoration: none; color: black;}
+.main-div-HomePage .zanas-h1{text-align: center; margin-top: 60px; margin-bottom: 20px;}
+.zanas-col{margin-bottom: 30px;}
+.zanas-card:hover{cursor: pointer;}
+.zanas-card{border: 1px solid black;}
+.main-div-HomePage .pic-div{height: 250px; overflow: hidden;}
+.main-div-HomePage .pic-div img{width: 100%; height: 100%; transition: all 1.1s ease;}
+.main-div-HomePage .pic-div img:hover{transform: scale(1.1);}
+.main-div-HomePage .card-info{padding: 20px; height: 300px; position: relative;}
+.main-div-HomePage .card-info h5{margin-top: 20px; margin-bottom: 10px ;}
+.main-div-HomePage .card-info i{position: absolute; bottom:20px; right:20px; font-size: 30px; color: black}
+
+
+.edukacija-main-div {margin-top: 60px; position: relative;}
+.edukacija-main-div img{width: 100%; height: 100%; border-radius: 5px;}
+.edukacija-main-div .educatija-inner-div{height: fit-content;position: absolute; top: 50%; transform: translateY(-50%);}
+.edukacija-main-div .educatija-inner-div p{width: 90%;}
+
+.edukacija-main-div .btn-academy{background-color: black; color: #fcd232; padding: 10px 20px; border: none; border-radius: 3px;
+    box-shadow: 10px 10px 28px -18px rgba(0,0,0,0.75); margin: 10px 10px 10px 0; font-weight: bold;}
+.edukacija-main-div .btn-company{background-color: #fcd232; color: black; padding: 10px 20px; border: none; border-radius: 3px;
+    box-shadow: 10px 10px 28px -18px rgba(0,0,0,0.75); margin: 10px 0; font-weight: bold;}
+
+.main-div-HomePage .div-nastani{margin-top: 60px; text-align: center;}
+.main-div-HomePage .div-nastani h1{margin-bottom: 20px;}
+.main-div-HomePage .div-nastani .btn-calendar{background-color: black; color: #fcd232; padding: 5px 20px; border: none; border-radius: 3px;
+    box-shadow: 10px 10px 28px -18px rgba(0,0,0,0.75); float: right;}
+.main-div-HomePage .div-nastani .btn-calendar i{margin-right: 10px;}
+
+
+.main-div-coworking{margin-top: 100px; position: relative;}
+.main-div-coworking img{width: 100%; height: 100%; border-radius: 5px;}
+.main-div-coworking .coworking-inner-div{position: absolute; height: fit-content;
+     top: 50%; transform: translateY(-50%);}
+.main-div-coworking .coworking-inner-div h1 {margin-top: 20px;}
+.coworking-inner-div h1, .coworking-inner-div p, .coworking-inner-div .btn-coworking{text-decoration: line-through;}
+.main-div-coworking .btn-coworking{background-color: black; color: #fcd232; padding: 10px 20px; border: none; border-radius: 3px;
+    box-shadow: 10px 10px 28px -18px rgba(0,0,0,0.75); font-weight: bold;}
+.soldout{background-color: #fcd232; color: black; font-weight: bold; padding: 5px 10px; border-radius: 10px; }
+
+.HM-prostor-za-nastani{margin-top: 50px; position: relative;}
+.HM-prostor-za-nastani img{width: 100%; height: 100%; border-radius: 5px;}
+.HM-prostor-za-nastani .HM-prostor-inner-div{position: absolute; height: fit-content;
+    top: 50%; transform: translateY(-50%);}
+.HM-prostor-za-nastani .HM-prostor-inner-div a{background-color: black; color: #fcd232; padding: 10px 20px; border: none; border-radius: 3px;
+    box-shadow: 10px 10px 28px -18px rgba(0,0,0,0.75);}
+.HM-prostor-za-nastani .HM-prostor-inner-div p{margin: 30px 0;width: 90%;}
+.HM-prostor-za-nastani .HM-prostor-inner-div a:hover{text-decoration: none; color: #fcd232;margin-top: 20px;}
+.HM-prostor-za-nastani .HM-prostor-inner-div a i{margin-right: 10px;margin-top: 5px; }
+
+.main-div-HomePage .partnerstvo {text-align: center; margin-top: 100px;} 
+.main-div-HomePage .partnerstvo a{background-color: black; color: #fcd232; padding: 10px 20px; border: none; border-radius: 3px;
+    box-shadow: 10px 10px 28px -18px rgba(0,0,0,0.75);}
+.main-div-HomePage .partnerstvo a:hover{text-decoration: none; color: #fcd232;margin-top: 20px;}
+.main-div-HomePage .partnerstvo a i{margin-right: 10px; margin-top: 7px;}
+.main-div-HomePage .partnerstvo p{margin-bottom: 30px ;}
+
+
+@media(max-width:768px){
+    .heder1 .heder-title{height: 50vh;}
+    .bg-zatemnet{height: 50vh !important;}
+
+    .main-div-HomePage .pic-div{height: 300px;}
+    .main-div-HomePage .card-info{height: 350px;}
+
+    .zanas-row{margin-bottom: 30px;}
+    .div-nastani{margin-bottom: 30px;}
+
+    .edukacija-col{height: fit-content; margin-bottom: 20px;}
+    .edukacija-col .educatija-inner-div{position: static; top: none; transform: none;}
+    
+    .main-div-HomePage .div-nastani .btn-calendar {font-size: 20px; padding: 15px 20px; float: none;}
+    .main-div-coworking{margin-top: 20px;}
+    .prostor-col, .coworking-col{height: 250px;margin-bottom: 20px;}
+    
+    .soldout{position: absolute; top: 30px; left: 250px;}
+}
+
+@media(max-width:425px){
+    .main-div-HomePage .div-nastani h1{text-align: left;}
+    .main-div-HomePage .div-nastani{margin-bottom: 100px;}
+}

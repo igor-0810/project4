@@ -1,0 +1,92 @@
+.main-nav{width: 95%; margin: 20px auto}
+.main-nav ul{ list-style: none;display: flex;align-items: center; margin-bottom: 0; padding: 0 !important;}
+.main-nav ul li{display: inline-block; margin: 0 10px; padding: 10px 20px; text-transform: uppercase; font-weight: bold;}
+.main-nav ul li a{color:black; display: block;}
+.main-nav ul li a:hover{text-decoration: none;}
+.main-nav ul li:hover{border-bottom: 2px solid #fcd232; cursor: pointer;}
+.selected-nav-li{border-bottom: 2px solid #fcd232;}
+
+.navbar1{display: flex; justify-content: space-between; align-items: center;}
+.main-nav .btn-black{padding: 10px 20px;color: #fcd232; background-color: black;border: none;border-radius: 3px;}
+.main-nav .btn-black:hover{cursor: pointer;}
+
+
+/* .modal-content{background-color: lightgray !important;} */
+.najava-div label{width: 100% !important; margin-bottom: 0 !important;}
+.najava-div input{width: 100%; border-radius: 3px;margin-bottom: 20px;border:1px solid gray;height: 40px; }
+.najava-div input::placeholder{padding-left: 10px;} 
+.najava-div i{ float: right; cursor: pointer;}  
+.najava-div .save-changes{padding: 5px 15px;color: black; background-color: #fcd232;
+    font-weight: bold; margin-top: 20px;border: none;border-radius: 3px;}   
+.modal-partnership .modal-dialog{max-width: 700px !important; padding: 20px;}
+.modal-partnership .modal-body{padding: 20px !important;}
+.modal-partnership .div-partnership .close-x{position: absolute; top: 25px; right: 20px; font-size: 25px; cursor: pointer;}
+.modal-partnership .div-partnership h3{margin-bottom: 30px;}
+.modal-partnership .div-partnership label{margin-bottom: 0 !important; font-weight: bold; width: 100%;}
+.modal-partnership .div-partnership label span{float: right; color: gray; font-size: 13px;}
+.modal-partnership .div-partnership input{width: 100%; border-radius: 5px; margin-bottom: 20px; border: 1px solid lightgray;
+height: 40px;}
+.modal-partnership .div-partnership textarea{width: 100%; border-radius: 5px; margin-bottom: 20px; border: 1px solid lightgray;}
+.modal-partnership .div-partnership input::placeholder {padding-left: 20px; color: gray;font-size: 20px;font-style: italic;}
+.modal-partnership .div-partnership textarea::placeholder{padding-left: 20px; padding-top: 10px; color: gray;
+     font-size: 20px; font-style: italic;}
+   
+.modal-partnership .div-partnership .partnership-btn-div{float: right;}
+.modal-partnership .div-partnership .partnership-btn-div .isprati-forma{background-color: black; color: #fcd232;
+     padding: 10px 20px; border: none;font-size: 13px; font-weight: bold; border-radius: 3px;}
+.modal-partnership .div-partnership .partnership-btn-div .isprati-forma i{margin-right: 10px;}
+.modal-partnership .div-partnership .partnership-btn-div .iskluci{background-color: white; border: none; margin:10px;
+    font-size: 13px; font-weight: bold;}
+
+.navbar-tablet{display: none;}
+
+@media(max-width:768px){
+     .main-nav{width: 100%; margin: 0;}
+     .navbar1{display: none;}
+     .navbar-tablet{display: flex; justify-content: space-between; align-items: center;margin: 25px;}
+     .navbar-tablet .nav-tablet-menu{display: flex; align-items: center;}
+     .navbar-tablet .nav-tablet-menu i{ color: #fcd232; background-color: black;font-size: 20px;padding: 11px 15px;
+     border: none; border-radius: 3px; margin-left: 20px;}
+     .tablet-nav-ul ul{background-color: black; display: flex;flex-direction: column; align-items: center;justify-content: center;
+     padding: 20px 0 !important;}
+     .tablet-nav-ul ul li { color:white}
+     .tablet-nav-ul ul li a{color: white;}
+     .tablet-nav-ul .btn-priklucise-mobile{display: none;}
+     
+     .modal-najavise .modal-dialog{max-width: 650px;}
+     .najava-div i{font-size: 35px;}
+     .najava-div label{font-size: 30px;}
+     .najava-div input {height: 50px;}
+     .najava-div input::placeholder{font-size: 25px;}
+     .najava-div .save-changes{ font-size: 20px; padding: 10px 15px; border-radius: 5px;}
+      
+     .modal-partnership .modal-dialog{max-width: 800px !important;}
+     .modal-partnership .div-partnership .close-x{font-size: 40px;}
+     .modal-partnership .div-partnership h3{font-size: 50px;}
+     .modal-partnership .div-partnership label{font-size: 25px;}
+     .modal-partnership .div-partnership input{height: 50px;}
+     .modal-partnership .div-partnership label span{font-size: 25px;}
+     .modal-partnership .div-partnership input::placeholder{font-size: 25px;}
+     .modal-partnership .div-partnership .partnership-btn-div .iskluci{font-size: 20px; margin: 20px;}
+     .modal-partnership .div-partnership .partnership-btn-div .isprati-forma{font-size: 20px;}
+
+     
+}
+
+@media(max-width:425px){
+     .tablet-nav-ul .btn-priklucise-mobile{display: block; background-color: #fcd232; color: black;border-radius: 5px;margin-top: 10px;}
+
+     .btn-black{display: none;}
+     .modal-partnership .modal-dialog{padding: 0; margin: 0;}
+     .modal-partnership .div-partnership{margin: 20px 0; }
+     .modal-partnership .div-partnership .close-x{font-size: 30px;}
+     .modal-partnership .div-partnership h3{font-size: 30px; text-align: center; margin: 70px 0;}
+     .modal-partnership .div-partnership label{font-size: 20px !important;}
+     .modal-partnership .div-partnership input{height: 50px;margin-bottom: 40px;}
+     .modal-partnership .div-partnership label span{font-size: 20px;}
+     .modal-partnership .div-partnership input::placeholder{font-size: 20px;}
+     .modal-partnership .div-partnership .partnership-btn-div .iskluci{font-size: 17px;}
+     .modal-partnership .div-partnership .partnership-btn-div .isprati-forma{font-size: 17px;}
+
+
+}

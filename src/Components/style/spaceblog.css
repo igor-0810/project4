@@ -1,0 +1,78 @@
+.nav-spaceblog ul{list-style: none;width: fit-content; padding-left: 0;  margin-left: 70px; 
+    background-color: #f5f5f5; margin-bottom: 0;}
+.nav-spaceblog ul li {display: inline-block; padding: 5px; margin: 10px; font-size: 15px;}
+.nav-spaceblog ul li:hover{cursor: pointer; border-bottom: 2px solid black;}
+.nav-spaceblog ul .first-child:hover{border: none !important; cursor: initial !important;}
+.nav-spaceblog ul li a{color: black;}
+
+.selected{border-bottom: 2px solid black;}
+.unselected{border-bottom: none;}
+
+.heder-spaceBlog{height: 80vh;}
+.bg-zatemnet{height: 80vh; background-color: rgba(0, 0, 0, 0.7);padding-top: 150px; }
+.heder-spaceBlog .span-category{background-color: #fcd232; color: black;border-radius: 20px;padding: 10px 20px;
+font-weight: bold;font-size: 12px;position: absolute; top: 0;}
+.heder-spaceBlog .spaceBlog-info{width: 80%; margin: 0 auto; position: relative; height: 40vh;}
+.heder-spaceBlog .spaceBlog-info h1{color: white;position: absolute; top: 60px;}
+.heder-spaceBlog .spaceBlog-info .desc-index{display: flex; justify-content: space-between; align-items: center;
+position: absolute; bottom:60px; width: 100%;}
+.heder-spaceBlog .spaceBlog-info p {color: white; width: 60%;}
+.heder-spaceBlog .spaceBlog-info .desc-index span{color: #fcd232; margin-right: 185px;}
+
+.heder-spaceBlog .spaceBlog-info a{padding: 10px 15px; border-radius: 3px; color: black;background-color: #e5e5e5;
+font-weight: bold;position: absolute;bottom: 0;}
+.heder-spaceBlog .spaceBlog-info a i{margin-right: 10px;}
+.heder-spaceBlog .spaceBlog-info a:hover{text-decoration: none;cursor: pointer;}
+
+.heder-spaceBlog .spaceBlog-info .strelki{position: absolute;width: fit-content; bottom: 0; right: 100px; color: #e5e5e5; font-size: 35px;}
+.heder-spaceBlog .spaceBlog-info .strelki > i{margin-right: 20px;}
+
+.blog-card-container{width: 90%; margin: 50px auto;}
+.blog-card-container .card-col{padding: 0 !important;}
+.blog-card{margin: 10px; border: 1px solid gray; border-radius: 5px;}
+.blog-card-container .blog-card-info{padding: 20px;height: 300px; position: relative;}
+
+.blog-card-container .blog-card-info .card-category{background-color: #fcd232; color: black;border-radius: 20px;padding: 10px 20px;
+    font-weight: bold;font-size: 12px;position: absolute; bottom: 20px;}
+.blog-card-container .blog-card-info h5{margin-bottom: 20px;}
+.blog-card-container .blog-card-info i{position: absolute; bottom: 25px;right: 30px; font-size: 35px;}
+.openMenu-spaceblog{display: none;}
+.heder-spaceBlog .spaceBlog-info .strelki span{display: none;}
+
+
+@media(max-width:768px){
+    .nav-spaceblog ul{margin-left: 0; width: 100%; padding: 15px 0;}
+    .nav-spaceblog ul .first-child{display: none;}
+    .nav-spaceblog ul li{font-size: 13px;}
+
+    .heder-spaceBlog{height: 50vh;}
+    .heder-spaceBlog .spaceBlog-info{width: 90%; margin: 0 auto; position: relative; height: 35vh;}
+    .bg-zatemnet{padding-top: 80px;}
+    .heder-spaceBlog .spaceBlog-info .strelki{right: 0;}
+    .heder-spaceBlog .spaceBlog-info .desc-index span{margin-right: 50px; font-size: 30px;}
+    .heder-spaceBlog .spaceBlog-info h1{top: 90px;}
+    .heder-spaceBlog .span-category{top:20px}
+    .blog-card-container{margin: 20px auto;}
+}
+
+@media(max-width:425px){
+    .openMenu-spaceblog{display: block; background-color: black; padding: 5px;display: flex; flex-direction: column;
+    justify-content: center; align-items: center; width: 45px; height: 42px;border-radius: 3px;}
+    .openMenu-spaceblog .bar-1{ width: 80%; height: 3px; background-color: #fcd232;margin-bottom: 4px;}
+    .openMenu-spaceblog .bar-2{ width: 60%; height: 3px; background-color: #fcd232;margin-bottom: 4px;}
+    .openMenu-spaceblog .bar-3{ width: 40%; height: 3px; background-color: #fcd232;}
+
+    .nav-spaceblog ul{display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: black;
+    color: white;}
+    .selected{border-bottom: 2px solid #fcd232 !important;}
+    .bg-zatemnet{padding-top: 0px;}
+    .heder-spaceBlog .spaceBlog-info{height: 50vh;}
+    .heder-spaceBlog .spaceBlog-info .strelki{width: 100%; bottom: 20px; display: flex; justify-content: space-between;}
+    .heder-spaceBlog .spaceBlog-info .strelki span{display: block; color: #fcd232;}
+    .heder-spaceBlog .spaceBlog-info .desc-index span{display: none;}
+    .heder-spaceBlog .spaceBlog-info .desc-index{bottom: 190px;}
+    .heder-spaceBlog .spaceBlog-info .strelki i{font-size: 50px;}
+    .heder-spaceBlog .spaceBlog-info h1{font-size: 30px}
+    .heder-spaceBlog .spaceBlog-info a{bottom: 110px;}
+
+}

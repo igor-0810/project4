@@ -1,0 +1,51 @@
+.eventSpace-main-div{width: 95%; margin:50px auto}
+.eventSpace-main-div h1, .eventSpace-main-div p{margin-bottom: 20px;};
+.eventSpace-main-div h1{font-weight: bold;}
+.eventSpace-main-div .heder-spaceEvent .spaceEvent-left{position: relative;;}
+.eventSpace-main-div .heder-spaceEvent .spaceEvent-right img{width: 100%; height: 100%;}
+.eventSpace-main-div .heder-spaceEvent .spaceEvent-left button{background-color: black; color: #fcd232; padding: 10px 20px; border: none; border-radius: 3px;
+    box-shadow: 10px 10px 28px -18px rgba(0,0,0,0.75); }
+
+.eventSpace-main-div .prostorii{ margin: 50px 0;}
+.eventSpace-main-div .prostorii-left{position: relative;padding: 0 !important ;}
+.eventSpace-main-div .spaceEvent-card-container .card-eventSpace{ margin-bottom: 15px;}
+.eventSpace-main-div .spaceEvent-card-container{padding: 0 !important;}
+.eventSpace-main-div .left-inner-box{position: absolute; top: 50%; transform: translateY(-50%);padding-right: 10px;}
+
+
+/* .eventSpace-main-div .space-kitchen .col-paddingFree{padding: 0 !important;} */
+.eventSpace-main-div .space-kitchen .box-right{ background-image: url("../../Photos/space-kitchen-galerija/IMG_7362.jpg"); 
+background-position: center; background-size: cover; height: 525px;}
+.eventSpace-main-div .space-kitchen .box1 {background-image: url("../../Photos/space-kitchen-galerija/IMG_7777.jpg");
+    background-position: center; background-size: cover; height: 250px; margin-bottom: 15px;}
+.eventSpace-main-div .space-kitchen .box2{background-image: url("../../Photos/space-kitchen-galerija/IMG_7385.jpg");
+    background-position: center; background-size: cover; height: 250px; margin-top: 10px;}
+.eventSpace-main-div .space-kitchen .box3{background-image: url("../../Photos/space-kitchen-galerija/IMG_7361.jpg");
+    background-position: center; background-size: cover; height: 250px; margin-top: 10px;}    
+
+.eventSpace-main-div .nudime{margin-top: 50px;}
+.eventSpace-main-div .nudime ul{list-style: none; padding: 0; width: 90%;}
+.eventSpace-main-div .nudime ul li{display: inline-block;margin-right: 15px; margin-bottom: 15px; border-radius: 3px; padding: 10px 25px; background-color: black; color: white;font-size: 25px}
+.eventSpace-main-div .nudime ul li i{color: #fcd232;margin-right: 10px;}
+
+.eventSpace-main-div .girl{margin-top: 50px;}
+.eventSpace-main-div .girl img {width: 100%;}
+
+.tablet-evenPic{display: none;}
+
+
+@media(max-width:768px){
+    .eventSpace-main-div .left-inner-box{position: static; top: 0; transform: none; margin: 20px;}
+
+    .desctop-eventPic{display: none;}
+    .tablet-evenPic{display: block;}
+    .eventSpace-main-div .space-kitchen .box-right{height: 250px; margin-bottom: 20px;}
+
+    .eventSpace-main-div .nudime ul{width: 100%;}
+
+    
+}
+@media(max-width:425px){
+    .eventSpace-main-div .space-kitchen .box-right{margin-bottom: 0;}
+    .eventSpace-main-div .space-kitchen .box1{margin-bottom: 10px;}
+}
