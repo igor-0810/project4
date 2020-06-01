@@ -9,7 +9,7 @@ export const Provider = (props) => {
     const [blogInfo, setBlogInfo] = useState(spaceBlogInfo);
     const [allCards, setAllCards] = useState(true);
     const [isActive, setIsActive] = useState(0);
-    const [isSpaceblogNavOpen, setSpaceblogNavOpen] = useState(false)
+    const [isSpaceblogNavOpen, setSpaceblogNavOpen] = useState(true)
     const [partnership, setPartnership] = useState(false)
 
     const coworkingRef = React.createRef()
