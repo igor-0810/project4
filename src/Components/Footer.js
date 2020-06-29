@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 import logo from '../Photos/brainster_space_logo.svg';
 import { Row, Col, Popover, OverlayTrigger } from "react-bootstrap";
@@ -7,9 +7,9 @@ import "../Components/style/footer.css"
 
 const Footer = () => {
   
-    const firstFieldRef = useRef(null)
+    // const firstFieldRef = useRef(null)
     const popover = (
-        <Popover id="popover-basic" ref={firstFieldRef}>
+        <Popover id="popover-basic" >
             <Popover.Title as="h3">Контакт</Popover.Title>
             <Popover.Content>
                 <p>емаил:</p>
