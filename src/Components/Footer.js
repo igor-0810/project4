@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import { Link } from "react-router-dom";
 import logo from '../Photos/brainster_space_logo.svg';
 import { Row, Col, Popover, OverlayTrigger } from "react-bootstrap";
@@ -6,18 +6,10 @@ import "../Components/style/footer.css"
 
 
 const Footer = () => {
-    // const Square = React.forwardRef(function Square(props, ref) {
-    //     return (
-    //       <div
-    //         ref={ref}
-           
-    //         {...props}
-    //       />
-    //     );
-    //   });
-    const popover = React.forwardRef(function popover(props, ref){
-        return (
-            <Popover id="popover-basic" ref={ref} {...props}>
+  
+    const firstFieldRef = useRef(null)
+    const popover = (
+        <Popover id="popover-basic" ref={firstFieldRef}>
             <Popover.Title as="h3">Контакт</Popover.Title>
             <Popover.Content>
                 <p>емаил:</p>
@@ -26,9 +18,8 @@ const Footer = () => {
                 <p>070 233 414</p>
             </Popover.Content>
         </Popover>
-        )
-       
-    });
+    );
+  
     return (
         <div className="footer-main-div"  >
 
@@ -37,7 +28,7 @@ const Footer = () => {
                     <div>
                         <p>Корисни Линкови</p>
                         <ul>
-                            <OverlayTrigger trigger={"click"} placement="top" overlay={popover}>
+                        <OverlayTrigger trigger={"click"} placement="top" overlay={popover}>
                                 <li  >Контакт</li>
                             </OverlayTrigger>
 
