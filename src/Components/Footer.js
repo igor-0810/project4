@@ -8,17 +8,17 @@ import "../Components/style/footer.css"
 const Footer = () => {
   
     // const firstFieldRef = useRef(null)
-    const popover = (
-        <Popover id="popover-basic" >
-            <Popover.Title as="h3">Контакт</Popover.Title>
-            <Popover.Content>
-                <p>емаил:</p>
-                <p>anja@brainster.com</p>
-                <p>Телефон:</p>
-                <p>070 233 414</p>
-            </Popover.Content>
-        </Popover>
-    );
+    // const popover = (
+    //     <Popover id="popover-basic" >
+    //         <Popover.Title as="h3">Контакт</Popover.Title>
+    //         <Popover.Content>
+    //             <p>емаил:</p>
+    //             <p>anja@brainster.com</p>
+    //             <p>Телефон:</p>
+    //             <p>070 233 414</p>
+    //         </Popover.Content>
+    //     </Popover>
+    // );
   
     return (
         <div className="footer-main-div"  >
@@ -28,9 +28,9 @@ const Footer = () => {
                     <div>
                         <p>Корисни Линкови</p>
                         <ul>
-                        <OverlayTrigger trigger={"click"} placement="top" overlay={popover}>
+                        {/* <OverlayTrigger trigger={"click"} placement="top" overlay={popover}> */}
                                 <li  >Контакт</li>
-                            </OverlayTrigger>
+                            {/* </OverlayTrigger> */}
 
                             <li><a href="https://www.wearelaika.com/" target="_blank" rel="noopener noreferrer">Отворени Позиции</a></li>
                             <li><a href="https://medium.com/wearelaika/brainster-space-the-new-home-of-the-local-tech-community-in-skopje-ffe97b564152" target="_blank" rel="noopener noreferrer">Галерија</a></li>
